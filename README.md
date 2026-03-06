@@ -19,20 +19,14 @@ This project demonstrates basic network reconnaissance and service enumeration u
 ### Host Discovery
 ```bash
 nmap -sn 192.168.1.0/24
-## Step 2: Add TCP SYN Scan
-Type or paste this:
+```
 
-```markdown
 ### TCP SYN Scan
-
 ```bash
 nmap -sS 192.168.1.10
+```
 
-## Step 3: Add Service Version Detection (Optional but Recommended)
-Below the TCP SYN scan section add:
-
-```markdown
 ### Service Version Detection
-
 ```bash
 nmap -sV 192.168.1.10
+```
